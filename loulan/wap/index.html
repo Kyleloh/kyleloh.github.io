@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/wap.css">
+    <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+    <title>楼兰</title>
+    <script>
+        function setRoot() {
+            document.querySelector('html').style.fontSize = window.innerWidth * 10 / 64 + 'px';
+        }
+        setRoot();
+    </script>
+</head>
+
+<body>
+
+    <div class="focus">
+        <img src="./images/focus.png">
+    </div>
+
+    <div class="title"><img src="./images/title-arr.png">2017款楼兰</div>
+
+    <div class="tab">
+        <a href="javascript:;" class="item active">
+            <div class="text">造型</div>
+            <div class="text2">STYLE</div>
+        </a>
+        <a href="javascript:;" class="item">
+            <div class="text">品位</div>
+            <div class="text2">SPACE</div>
+        </a>
+        <a href="javascript:;" class="item">
+            <div class="text">动力</div>
+            <div class="text2">POWER</div>
+        </a>
+        <a href="javascript:;" class="item">
+            <div class="text">安全</div>
+            <div class="text2">SAFETY</div>
+        </a>
+    </div>
+
+    <div class="focus-slide">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="swiper-inner"><img src="./images/pic-big.png"></div></div>
+                <div class="swiper-slide"><div class="swiper-inner"><img src="./images/pic-big.png"></div></div>
+                <div class="swiper-slide"><div class="swiper-inner"><img src="./images/pic-big.png"></div></div>
+                <div class="swiper-slide"><div class="swiper-inner"><img src="./images/pic-big.png"></div></div>
+            </div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="focus-text">
+        <div class="item active">
+            <h3>"超感印象"设计理念1</h3>
+            <p>“理性几何美”与“感性表现力”结合，运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。理性几何美”与“感性表现力”结合，运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。</p>
+        </div>
+        <div class="item">
+            <h3>"超感印象"设计理念2</h3>
+            <p>“理性几何美”与“感性表现力”结合，运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。</p>
+        </div>
+        <div class="item">
+            <h3>"超感印象"设计理念3</h3>
+            <p>“理性几何美”与“感性表现力”结合，运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。</p>
+        </div>
+        <div class="item">
+            <h3>"超感印象"设计理念4</h3>
+            <p>“理性几何美”与“感性表现力”结合，运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。运用几何设计元素，打造时尚动感造型，带来超越感官的情感共鸣。</p>
+        </div>
+    </div>
+
+    <div class="title" style="margin-top:0.35rem;"><img src="./images/title-arr.png">最新资讯</div>
+
+    <div class="article-list">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./images/pic-small.png">
+                    <h3>一图解读2017款东风日产全新楼兰</h3>
+                    <p>东风日产SUV动感之王--全新楼兰，蜕变王者，以全新感观动跑型SUV之姿，强势来袭。</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/pic-small.png">
+                    <h3>一图解读2017款东风日产全新楼兰</h3>
+                    <p>东风日产SUV动感之王--全新楼兰，蜕变王者，以全新感观动跑型SUV之姿，强势来袭。</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/pic-small.png">
+                    <h3>一图解读2017款东风日产全新楼兰</h3>
+                    <p>东风日产SUV动感之王--全新楼兰，蜕变王者，以全新感观动跑型SUV之姿，强势来袭。</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/pic-small.png">
+                    <h3>一图解读2017款东风日产全新楼兰</h3>
+                    <p>东风日产SUV动感之王--全新楼兰，蜕变王者，以全新感观动跑型SUV之姿，强势来袭。</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="title" style="margin-top:0.15rem;"><img src="./images/title-arr.png">预约试驾</div>
+
+    <div class="formArea">
+        <form action="">
+            <input class="input" type="text" placeholder="姓名">
+            <input class="input" type="text" placeholder="联系电话">
+            <select class="select" name="" id="">
+                <option>请选择省份</option>
+            </select>
+            <select class="select" name="" id="">
+                <option>请选择城市</option>
+            </select>
+            <select class="select" name="" id="">
+                <option>请选择专营店</option>
+            </select>
+            <div class="radioArea">
+                <span>计划试驾时间：</span>
+                <label class="lb1 checked"><input type="radio" name="week" value="周末" checked>周末</label>
+                <label class="lb2"><input type="radio" name="week" value="周一至周五">周一到周五</label>
+            </div>
+            <div class="buttonArea">
+                <button>提&nbsp;&nbsp;交</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <a href="javascript:;"><img src="./images/home-icon.png">进入官网</a>
+        <a href="javascript:;"><img src="./images/book-icon.png">预约试驾</a>
+    </div>
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/swiper-3.4.2.min.js"></script>
+    <script src="./js/wap_index.js"></script>
+</body>
+
+</html>
