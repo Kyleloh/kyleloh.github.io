@@ -154,14 +154,20 @@ input{-webkit-appearance: none;}
     color: #878787;
     text-align: justify;
 }
-
+::-webkit-input-placeholder{
+    font-family: microsoft yahei;
+    font-size: 0.24rem;
+    color: #434343;
+}
 .formArea .input{
     font-family: microsoft yahei;
+    padding: 0.13rem 0;
+    font-size: 0.24rem;
     margin: 0.2rem auto;
     width: 4.04rem;
-    height: 0.56rem;
+    height: 0.3rem;
     text-indent: 0.2rem;
-    line-height: 0.56rem;
+    line-height: 0.3rem;
     border: none;
     outline: none;
     display: block;
@@ -169,6 +175,7 @@ input{-webkit-appearance: none;}
     background-size: 100% 100%;
     border-radius: 0;
 }
+
 .formArea .select{
     border-radius: 0;
     font-family: microsoft yahei;
