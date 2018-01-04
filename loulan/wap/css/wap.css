@@ -70,6 +70,14 @@ input{-webkit-appearance: none;}
     color: #878787;
 }
 
+.focus-atlas .focus-item{
+    display: none;
+}
+
+.focus-atlas .active{
+    display: block;
+}
+
 .focus-slide .swiper-inner{
     padding: 0 0.1rem;
 }
@@ -268,6 +276,16 @@ input{-webkit-appearance: none;}
 .footer{
     height: 0.82rem;
     margin-top: 0.35rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+.footerSpace{
+    margin-top: 0.35rem;
+    height: 0.82rem;
 }
 
 .footer a{
