@@ -19,8 +19,6 @@ setInterval(function(){
     });
 },100);
 
-
-
 function slideInit(num){
     var mySwiper = new Swiper ('#focus-item-'+num+' .swiper-container', {
         loop: true,
@@ -43,5 +41,4 @@ slideInit(1);
 slideInit(2);
 slideInit(3);
 
-
-
+showPart(0);
