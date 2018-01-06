@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/pc.css">
     <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
     <title>NISSAN</title>
+    <script src="http://h0.ifengimg.com/20150625/fa.min.js"></script>
 </head>
 
 <body>
@@ -275,6 +276,17 @@
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/swiper-3.4.2.min.js"></script>
     <script src="./js/pc_index.js"></script>
+    <script>
+        var sta_collection_time = new Date().getTime();
+    </script>
+    <script id="sta_collection_new">
+        window.analytics(encodeURIComponent(window.location.href));	//页面统计，必填
+        setTimeout(function () {
+            window.aptracker.collection();                    //广告统计，必填
+            window.remain();                               //停留时长统计，选填
+        }, 800);
+
+    </script>
 </body>
 
 </html>
