@@ -266,3 +266,6 @@ input{-webkit-appearance: none;}
     color: #fff;
     margin: 0 0.2rem 0.2rem 0;
 }
+.carType .choice .active{
+    background: #c62241;
+}

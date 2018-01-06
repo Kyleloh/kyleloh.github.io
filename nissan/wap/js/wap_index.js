@@ -24,6 +24,8 @@ $(".tab .tabSelect").click(function(){
 });
 
 $(".carType .choice a").click(function(){
+    $(".carType .choice a").removeClass("active");
+    $(this).addClass("active");
     $(".atlas .focus-slide").hide().eq($(this).index()).show();
     $(".tab h3").text($(this).text());
     $(".popover").hide();
