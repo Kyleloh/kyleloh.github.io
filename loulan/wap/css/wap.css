@@ -146,8 +146,8 @@ input{-webkit-appearance: none;}
 
 .article-list li h3{
     font-size: 0.24rem;
-    line-height: 0.24rem;
-    margin-bottom: 0.12rem;
+    line-height: 0.3rem;
+    margin-bottom: 0.08rem;
     color: #393838;
     overflow: hidden;
     text-overflow: ellipsis;
