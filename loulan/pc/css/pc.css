@@ -143,7 +143,7 @@ i { font-style: normal; }
     left: auto;
     right: auto;
     z-index: 15;
-    top: 200px;
+    top: 210px;
 }
 .focus-item .swiper-button-next{
     background: url(../images/tab-next.png) no-repeat center center;
