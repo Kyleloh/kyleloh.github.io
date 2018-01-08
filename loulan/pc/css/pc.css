@@ -138,21 +138,23 @@ i { font-style: normal; }
 }
 
 .focus-item .swiper-button-next, .focus-item .swiper-button-prev{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 51px;
     left: auto;
     right: auto;
     z-index: 15;
-    top: 360px;
+    top: 200px;
 }
 .focus-item .swiper-button-next{
-    background: url(../images/button-next.png) no-repeat center center;
-    right: 185px;
+    background: url(../images/tab-next.png) no-repeat center center;
+    background-size:100%;
+    left: 805px;
 }
 
 .focus-item .swiper-button-prev{
-    background: url(../images/button-prev.png) no-repeat center center;
-    right: 211px;
+    background: url(../images/tab-prev.png) no-repeat center center;
+    background-size:100%;
+    left: 25px;
 }
 
 .part2{
